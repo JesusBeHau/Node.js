@@ -56,6 +56,6 @@ npm install express
 
 Ejecutar el archivo App
 </br>
-``bash
+``
 node App.js
 ``
