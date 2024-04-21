@@ -5,6 +5,8 @@
 - [Prerrequisitos](#requisitos-previos)
 - [Levantar el proyecto](#levantar-el-proyecto)
 - [Levantar el proyecto con el marco Express](#levantar-el-proyecto-con-el-marco-express)
+- [Presentación del equipo](Presentacion.pdf)
+- [Solución de la actividad propuesta en la exposición](#solucion-de-la-actividad)
 <br>
 
 ## Equipo:
@@ -59,3 +61,17 @@ Ejecutar el archivo App
 ``
 node App.js
 ``
+
+## Solucion de la actividad
+
+Para la actividad planteada al final de la exposicion, la solucion era crear un archivo para el cliente (en nuestro caso le llamamos appClient.js) y agregar el código siguiente:
+```
+const http = require('http');
+
+http.get(`http://localhost:3000/teamMembers`, (res) => {
+    res.on('data', (data) => {
+        console.log('Respuesta del servidor:', data.toString());
+    });
+});
+```
+[VER SOLUCION](https://github.com/JesusBeHau/Node.js/blob/main/my-express-app/appClient.js)
