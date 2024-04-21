@@ -5,7 +5,7 @@
 - [Prerrequisitos](#requisitos-previos)
 - [Levantar el proyecto](#levantar-el-proyecto)
 - [Levantar el proyecto con el marco Express](#levantar-el-proyecto-con-el-marco-express)
-- [Presentación del equipo](Presentacion.pdf)
+- [Presentación del equipo](Presentación.pdf)
 - [Solución de la actividad propuesta en la exposición](#solucion-de-la-actividad)
 <br>
 
